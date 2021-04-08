@@ -15,6 +15,7 @@ goto:EOF
 
 :update
 E:
+::Change to whatever directory you'll be putting the files
 cscript >/nologo CheckUpdates.vbs
 echo Launched CheckUpdates Script
 goto:EOF
